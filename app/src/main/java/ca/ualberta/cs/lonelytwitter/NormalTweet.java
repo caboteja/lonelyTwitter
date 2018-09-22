@@ -1,12 +1,10 @@
 package ca.ualberta.cs.lonelytwitter;
 
-/**
- * Created by caboteja on 9/20/18.
- */
-
-public class NormalTweet extends Tweet {
+public class NormalTweet extends Currentmood {
     @Override
-    public Boolean isImportant(){
+
+    public Boolean isImportant() {
+
         return false;
     }
 }
