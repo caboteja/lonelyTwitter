@@ -1,19 +1,22 @@
 package ca.ualberta.cs.lonelytwitter;
 
-/**
 
- * Created by caboteja on 9/20/18.
+import java.util.Date;
 
- */
+public class ImportantTweet extends Tweet {
 
-public class ImportantTweet extends Currentmood {
+    //Empty argument constructor with default values
+    //ImportantTweet() {
+    //Call the parent constructor to: avoid duplication!
+    //  super();
+    //}
+
+    //ImportantTweet(String message) {
+    //  super(message);
+    //}
 
     @Override
-
-    public Boolean isImportant(){
-
+    public Boolean isImportant() {
         return true;
-
     }
-
 }
